@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-express-sequelize-postgresql",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & PestgreSql.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "eslint --ignore-path .gitignore."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Islam260301/nodejs-express-sequelize-postgresql.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest",
+    "api",
+    "postgresql",
+    "express",
+    "sequelize"
+  ],
+  "author": "islam260301kg@gmail.com <Islam Orozobaev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Islam260301/nodejs-express-sequelize-postgresql/issues"
+  },
+  "homepage": "https://github.com/Islam260301/nodejs-express-sequelize-postgresql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-strongloop": "^2.1.0"
+  }
+}
