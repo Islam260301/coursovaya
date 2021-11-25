@@ -1,0 +1,1 @@
+module.exports = (sequelize, Sequelize) => {  const Worker = sequelize.define('workers', {    first_name: {      type: Sequelize.STRING    },    last_name: {      type: Sequelize.STRING    },    middle_name: {      type: Sequelize.STRING    }  }, { timestamps: false })  return Worker}

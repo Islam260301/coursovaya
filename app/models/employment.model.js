@@ -1,0 +1,1 @@
+module.exports = (sequelize, Sequelize) => {  const Employment = sequelize.define('employments', {    title: {      type: Sequelize.STRING    },    short_name: {      type: Sequelize.STRING    }  }, { timestamps: false })  return Employment}
